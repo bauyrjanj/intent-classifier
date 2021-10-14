@@ -1,0 +1,517 @@
+text,intent
+no,negative
+nope,negative
+nada,negative
+nah,negative
+not yet,negative
+no way,negative
+negative,negative
+I quit,i_quit
+I am quitting,i_quit
+I am leaving this job,i_quit
+quit,i_quit
+I'm never coming back to this job,i_quit
+I hate this job and I am leaving,i_quit
+I quit and I will leave the uniforms in the lobby,i_quit
+I am not coming back to this job,i_quit
+I am leaving my boss,i_quit
+quitting,i_quit
+would like to work an extra shift,extra_shift
+want to work extra hours,extra_shift
+would like an extra shift,extra_shift
+need a shift,extra_shift
+can I work extra shift,extra_shift
+Any open shifts,extra_shift
+can you offer me a shift yet,extra_shift
+can you offer me a shift,extra_shift
+what are shift offers,extra_shift
+Shift offers,extra_shift
+next shift,inquire_next_shift
+when is my next shift,inquire_next_shift
+tell my next shift,inquire_next_shift
+get next shift,inquire_next_shift
+when is next shift ,inquire_next_shift
+am i supposed to go to work tonight,inquire_next_shift
+When am I scheduled to work,inquire_next_shift
+when is my next schedule,inquire_next_shift
+what time am I supposed to be there,inquire_next_shift
+next shift ,inquire_next_shift
+do i work today,inquire_next_shift
+fuck you,bad_language
+bitch,bad_language
+loser,bad_language
+fucking cunt,bad_language
+cunt,bad_language
+no fucking way,bad_language
+wild bitch,bad_language
+not fucking done,bad_language
+yo cunt,bad_language
+whore,bad_language
+you are a whore,bad_language
+you're a cunt,bad_language
+you're a bitch,bad_language
+yo bitch,bad_language
+you fucking cunt,bad_language
+you're a wild bitch,bad_language
+loser loser,bad_language
+you're a loser,bad_language
+the next shift hasn't arrived yet,next_shift_no_show
+the next shift is not here yet,next_shift_no_show
+was asked to hold over,next_shift_no_show
+relief didn't show up,next_shift_no_show
+relief didn't come,next_shift_no_show
+next shift has not shown up,next_shift_no_show
+asked me to stay,next_shift_no_show
+held me over,next_shift_no_show
+relief is not here,next_shift_no_show
+had to wait,next_shift_no_show
+waiting on the other shift to arrive,next_shift_no_show
+bye,goodbye
+goodbye,goodbye
+bye bye,goodbye
+see you later,goodbye
+bye now,goodbye
+bye for now,goodbye
+good night,goodbye
+Bye,goodbye
+left,goodbye
+pace out,goodbye
+ttyl,goodbye
+good bye,goodbye
+Thanks,gratitude
+Thank you,gratitude
+Thx,gratitude
+Tnx,gratitude
+thanx,gratitude
+Thank you,gratitude
+thanks,gratitude
+thanks,gratitude
+ok. thx.,gratitude
+Thanks,gratitude
+tx,gratitude
+ty,gratitude
+appreciated,gratitude
+sad,user_sad
+angry,user_sad
+nervous,user_sad
+miserable,user_sad
+miserable,user_sad
+depressed,user_sad
+shity,user_sad
+unhappy,user_sad
+so sad,user_sad
+extremly sad,user_sad
+saad,user_sad
+super sad,user_sad
+disappointed,user_sad
+doing bad,user_sad
+bad,user_sad
+disappointing,user_sad
+stressed,user_sad
+happy,user_happy
+cheerful,user_happy
+joyful,user_happy
+cheerful,user_happy
+joyful,user_happy
+smiling,user_happy
+delighted,user_happy
+great,user_happy
+I'm good.,user_happy
+Not bad.,user_happy
+im ok,user_happy
+doing good thank you for asking,user_happy
+doing good,user_happy
+Lovely weather,user_happy
+u good,user_happy
+I am good,user_happy
+forget it stupid computer,bot_challenge
+idiot computer,bot_challenge
+you are a computer,bot_challenge
+am I talking to a human?,bot_challenge
+are you real?,bot_challenge
+are you a real person?,bot_challenge
+can you chat?,bot_challenge
+so can you talk to me,bot_challenge
+hey AI,bot_challenge
+who are your parents?,bot_challenge
+who is your supervisor?,bot_challenge
+who are you,bot_challenge
+what are you,bot_challenge
+WHAT ARE YOU,bot_challenge
+WHAT ARE YOU ???,bot_challenge
+Who art thou?,bot_challenge
+whoa re you,bot_challenge
+what is your name,bot_challenge
+WHo are you,bot_challenge
+who ar eyou,bot_challenge
+well lisa can i see a picture,show_your_picture
+can I see your picture,show_your_picture
+do you have a picture,show_your_picture
+what do you look like,show_your_picture
+show me yourself,show_your_picture
+what do you look like,show_your_picture
+send pics,show_your_picture
+send pictures,show_your_picture
+send photo,show_your_picture
+how do look,show_your_picture
+are you ugly?,show_your_picture
+can i see,show_your_picture
+do you have a picture,show_your_picture
+show me yourself,show_your_picture
+what do you look like?,show_your_picture
+what do you look like lisa?,show_your_picture
+reject,decline
+decline,decline
+refuse,decline
+rejected,decline
+declined,decline
+refused,decline
+don't want to take it,decline
+don't want it,decline
+not taking it,decline
+pass,decline
+redo,restart_topic_workflow
+retry,restart_topic_workflow
+Redo,restart_topic_workflow
+Retry,restart_topic_workflow
+restart,restart_topic_workflow
+start over,restart_topic_workflow
+start again,restart_topic_workflow
+reboot,restart_topic_workflow
+reinstate,restart_topic_workflow
+please restart,restart_topic_workflow
+please start over,restart_topic_workflow
+please start again,restart_topic_workflow
+begin from the start,restart_topic_workflow
+accept,accept
+I accept,accept
+accepting,accept
+am accepting,accept
+I am accepting,accept
+I will take it,accept
+I want to take it,accept
+bring it on,accept
+accepted,accept
+approved,accept
+I'll take that,accept
+accept shift,accept
+I'll take that shift,accept
+I will take that shift,accept
+hey,greet
+hello,greet
+hi,greet
+hello there,greet
+Lisa,greet
+hey there,greet
+good morning,greet
+good evening,greet
+good afternoon,greet
+evening,greet
+afternoon,greet
+morning,greet
+yo lisa,greet
+hi lisa,greet
+hello,greet
+hello are you there,greet
+hey bot,greet
+hey there lisa,greet
+Hey Lisa,greet
+are you there,greet
+any one there,greet
+hey lady,greet
+you are cute,flirting
+u r cute,flirting
+cutie,flirting
+you are beautiful,flirting
+you are hot,flirting
+you are sexy,flirting
+you sound sexy,flirting
+you sound hot,flirting
+love you,flirting
+like you,flirting
+want you,flirting
+want to kiss you,flirting
+kiss,flirting
+let's kiss,flirting
+you are silly,flirting
+sex with me,flirting
+miss us.. can we start again,flirting
+send nudes,flirting
+still love you,flirting
+are you pretty,flirting
+you are ugly,flirting
+miss you,flirting
+love yo,flirting
+wanna have some fun,flirting
+show bobs and vajine,flirting
+Have you ever seen a grown man naked,flirting
+you free later,flirting
+send nudity,flirting
+sex with me,flirting
+you are pretty,flirting
+mingle with me,flirting
+stink,rude
+idiot,rude
+suck,rude
+well you are an idiot,rude
+stupid,rude
+throwing up,rude
+you suck,rude
+damn you suck,rude
+you are dumb,rude
+stupid heaf,rude
+you are speaking non sense,rude
+dont care about your name,rude
+you are so stupid,rude
+you look like a wadded up piece of paper that has been chewed,rude
+oh you dirty bitch,rude
+you already are sntch,rude
+don't tell me how to live my life hoe,rude
+no shit sherlock,rude
+get your raggedy ass back here,rude
+you look like you fell off the ugly tree and hit every branch on the way down,rude
+And dumber than a box of bricks,rude
+your shit and need a mental health,rude
+yes,affirm
+yeah,affirm
+yeap,affirm
+yup,affirm
+great,affirm
+ok,affirm
+okay,affirm
+yes please,affirm
+confirmed,affirm
+confirm,affirm
+fine,affirm
+right,affirm
+yes that is right,affirm
+ye,affirm
+nice ok,affirm
+yeppers,affirm
+yupperooski,affirm
+that sounds appropriate,affirm
+correct,affirm
+Help,help
+help me please,help
+please help,help
+heeeeeeelp,help
+SOS,help
+need help please,help
+need help,help
+cant you help me,help
+please just help before i get pissed,help
+why cant you do it?,help
+help me,help
+I beg you,help
+please send me this info,help
+help,help
+"Help, I've fallen and I can't get up",help
+help me up,help
+not gonna make my shift,call_off_day_unknown
+not make my shift,call_off_day_unknown
+cant make it,call_off_day_unknown
+cant make my shift,call_off_day_unknown
+not coming,call_off_day_unknown
+called off,call_off_day_unknown
+calling off,call_off_day_unknown
+called off,call_off_day_unknown
+am calling off,call_off_day_unknown
+call off,call_off_day_unknown
+calloff,call_off_day_unknown
+going to call off,call_off_day_unknown
+have to call off,call_off_day_unknown
+Can’t make my next shift,call_off_day_unknown
+am not coming in,call_off_day_unknown
+am not going to work,call_off_day_unknown
+am not coming,call_off_day_unknown
+need vacation,call_off_day_unknown
+want to take a week vacation,call_off_day_unknown
+want to take a vacation,call_off_day_unknown
+want a vacation,call_off_day_unknown
+can I have this week off?,call_off_day_unknown
+can I take time off,call_off_day_unknown
+request a week off,call_off_day_unknown
+request a time off,call_off_day_unknown
+cant make it to work,call_off_day_unknown
+can i have this week off,call_off_day_unknown
+am sick and want to take a week vacation.,call_off_day_unknown
+just need to know how to get a week off,call_off_day_unknown
+can I just call off,call_off_day_unknown
+want to call off,call_off_day_unknown
+who do i call off with,call_off_day_unknown
+how do i request a week off,call_off_day_unknown
+not coming to work,call_off_day_unknown
+need to call out,call_off_day_unknown
+need to call off,call_off_day_unknown
+have a family emergency,call_off_day_unknown
+having a family emergency,call_off_day_unknown
+have doctor's appointment,call_off_day_unknown
+have an appointment,call_off_day_unknown
+my kid is sick,call_off_day_unknown
+my wife is sick,call_off_day_unknown
+funeral,call_off_day_unknown
+surgery,call_off_day_unknown
+have a surgery,call_off_day_unknown
+died,call_off_day_unknown
+family death,call_off_day_unknown
+just said I am sick,call_off_day_unknown
+am sick,call_off_day_unknown
+My car died,call_off_day_unknown
+My kid is sick,call_off_day_unknown
+am telling you i am sick,call_off_day_unknown
+can you cover my shift,call_off_day_unknown
+am sick because you made me work too many hours,call_off_day_unknown
+so sick,call_off_day_unknown
+car died,call_off_day_unknown
+dog is sick,call_off_day_unknown
+dog swallowed a bird,call_off_day_unknown
+mother is in the hospital,call_off_day_unknown
+baby daddy just got shot,call_off_day_unknown
+was just arrested,call_off_day_unknown
+My baby momma is in the hospital,call_off_day_unknown
+hey i feel sick,call_off_day_unknown
+baby mom is giving birth,call_off_day_unknown
+do i need to tell my supervisor that i am calling off,call_off_day_unknown
+not feeling well,call_off_day_unknown
+can you cover my shift,call_off_day_unknown
+can I call off,call_off_day_unknown
+wont' make it,call_off_day_unknown
+can you let my aop know i'm calling off,call_off_day_unknown
+won't be at work,call_off_day_unknown
+call off,call_off_day_unknown
+not gonna make it to work,call_off_day_unknown
+cancel my shift,call_off_day_unknown
+calling off from my shift,call_off_day_unknown
+will be absent,call_off_day_unknown
+have a doctor's appt,call_off_day_unknown
+my mother is getting her foot amputated.,call_off_day_unknown
+my wife went into labor,call_off_day_unknown
+my baby momma is giving birth,call_off_day_unknown
+have a doctor's appt,call_off_day_unknown
+doctor,call_off_day_unknown
+not going to make it to work,call_off_day_unknown
+Can you cover my shift,call_off_day_unknown
+would rather stay home and play video games,call_off_day_unknown
+can I take a day off please,call_off_day_unknown
+am not feeling well,call_off_day_unknown
+my kid is sick,call_off_day_unknown
+not coming into work,call_off_day_unknown
+calling out because im down with the sickness,call_off_day_unknown
+Feeling sick,call_off_day_unknown
+died,call_off_day_unknown
+need to call out of work,call_off_day_unknown
+calling out due to my crack addiction,call_off_day_unknown
+absent,call_off_day_unknown
+my dishwasher blew up,call_off_day_unknown
+won't be to my shift,call_off_day_unknown
+my engine expoloded,call_off_day_unknown
+childcare issues,call_off_day_unknown
+child care issues,call_off_day_unknown
+calling off my shifts,call_off_day_unknown
+I need a break,call_off_day_unknown
+won't be coming into work,call_off_day_unknown
+too stoned to come to work,call_off_day_unknown
+can i call off through you,call_off_day_unknown
+my uniform is dirty a bumb pee'ed on me last shift,call_off_day_unknown
+sick from doing cocaine,call_off_day_unknown
+my mom died,call_off_day_unknown
+Lisa my mom died,call_off_day_unknown
+am too stoned to come to work,call_off_day_unknown
+am stoned,call_off_day_unknown
+wont be coming in,call_off_day_unknown
+Call out,call_off_day_unknown
+have COVID,call_off_day_unknown
+can't make it into work,call_off_day_unknown
+not at work today,call_off_day_known
+cant make it today,call_off_day_known
+calling off today,call_off_day_known
+call off today,call_off_day_known
+cant make it tomorrow,call_off_day_known
+calling off for tomorrow,call_off_day_known
+cant make it to work tomorrow,call_off_day_known
+calling off for tomorrow,call_off_day_known
+cant make it monday,call_off_day_known
+calling off for tuesday,call_off_day_known
+calling off for wednesday,call_off_day_known
+calling off for thursday,call_off_day_known
+calling off for friday,call_off_day_known
+calling off for saturday,call_off_day_known
+calling off for sunday,call_off_day_known
+calling off for Monday,call_off_day_known
+cant make it on Tuesday,call_off_day_known
+cant make it on Wednesday,call_off_day_known
+cant make it on Thursday,call_off_day_known
+cant make it on Friday,call_off_day_known
+cant make it on Saturday,call_off_day_known
+cant make it on Sunday,call_off_day_known
+not going to make it to work tomorrow,call_off_day_known
+cant make it to work today,call_off_day_known
+not coming tomorrow,call_off_day_known
+I am calling off for tomorrow,call_off_day_known
+i'm not working today,call_off_day_known
+calling off for tomorrow,call_off_day_known
+i was in a car accident and cant come in today,call_off_day_known
+just checking in because i will not make it in today,call_off_day_known
+so i wont be in today,call_off_day_known
+calling off today,call_off_day_known
+not gonna make it today,call_off_day_known
+um ok so am i called off for the day ?,call_off_day_known
+I will not be at work next week,call_off_day_known
+i have been drinking and should not come to work today,call_off_day_known
+i need to take off for tomorrow.,call_off_day_known
+i think i have covid. i cannot make it to work tomorrow,call_off_day_known
+ok so i am called off for sunday,call_off_day_known
+not going to work today,call_off_day_known
+can i just tell you that i cant make it tonight,call_off_day_known
+i am not feeling it today,call_off_day_known
+i am not feeling well today,call_off_day_known
+i am calling off for saturday,call_off_day_known
+calling off for today,call_off_day_known
+not coming to work today,call_off_day_known
+do i have to go to work today,call_off_day_known
+can you cover my shift today,call_off_day_known
+calling of for next week,call_off_day_known
+can't make it to work next week,call_off_day_known
+not coming in next week,call_off_day_known
+calling for for tonight,call_off_day_known
+not coming in tonight,call_off_day_known
+cant make it tonight,call_off_day_known
+not gonna make it tonight,call_off_day_known
+not coming in tonite,call_off_day_known
+cant make it tonite,call_off_day_known
+not gonna make it tonite,call_off_day_known
+calling off for thursday,call_off_day_known
+calling off for next week,call_off_day_known
+not going to make it tonight,call_off_day_known
+not gonna make it to work today,call_off_day_known
+can you cover my shift today?,call_off_day_known
+not making it today,call_off_day_known
+not going to make it to work today,call_off_day_known
+jane will be taking my shift today,call_off_day_known
+"Lisa, I will not be able to make it today",call_off_day_known
+can i call off today?,call_off_day_known
+can I also call off for tomorrow?,call_off_day_known
+won't be able to make it today,call_off_day_known
+can you tell my supervisor i won't be there today?,call_off_day_known
+lisa I will be absent today,call_off_day_known
+have an issue with my supervisor and don't want to come to work today,call_off_day_known
+can you tell my supervisor i wont' be there today,call_off_day_known
+need tomorrow off.,call_off_day_known
+not coming in today,call_off_day_known
+call off on Monday,call_off_day_known
+yo Lisa i would like to call off on Monday,call_off_day_known
+calling off for thursday,call_off_day_known
+calling off for next week,call_off_day_known
+not going to make it tonight,call_off_day_known
+not gonna make it to work today,call_off_day_known
+can you cover my shift today?,call_off_day_known
+not making it today,call_off_day_known
+not going to make it to work today,call_off_day_known
+not gonna make it today,call_off_day_known
+will be absent today,call_off_day_known
+can i call off today,call_off_day_known
+won't be coming in today due to childcare issues,call_off_day_known
+cna you tell my aop i won' tbe there today?,call_off_day_known
+can't make it today,call_off_day_known
+and tomorrow,call_off_day_known
+not feeling work today,call_off_day_known
