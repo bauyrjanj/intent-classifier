@@ -23,7 +23,7 @@ The code in this repo in particular performs model training, hyperparameter tuni
 
 Ensure your current directory has all the files from this repo.
 ```
-python run_ml_pipeline.py
+python train_model.py
 
 ```
 
