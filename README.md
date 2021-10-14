@@ -1,7 +1,13 @@
 # Intent engine
-From GPU instance:
-This is the test version of the NLP intent engine that was trained and built in Transformers based deep neural networks using tensorflow.
-This is an alternative candidate that might replace the current Rasa based NLP intent engine once tested, peer reviewed and proven to have higher accuracy of classifying intents, more lightweight to run in containers, and most importantly more reliable and scalable.
+This is the test version of the NLP intent engine. Pre-trained BERT-base-uncased model as used from Hugging Face and was further trained using Tensorflow 2.4.0.
+
+# Network architecture
+
+1. Layer: bert-base-uncased: [.,768] 
+2. Layer: Lambda: [.,768]
+3. Layer: Dense-> ReLu:[.,768]
+4. Layer: Dropout: [.,384]
+5. Layer: Dense-> ReLu: [.,2]
 
 # What does the code in this repo do
 The code in this repo in particular performs model training, hyperparameter tuning, model evaluation, inference and saves the ready-to-deploy model with its parameters and configurations. 

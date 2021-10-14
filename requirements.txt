@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+seaborn
+sklearn
+tensorflow-gpu==2.4.1
+bert-for-tf2
+datetime
